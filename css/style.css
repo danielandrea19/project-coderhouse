@@ -299,7 +299,6 @@ and (max-device-width : 480px)
   .grid-container-nav-list > li{
     padding: 10px;
     font-weight: bold;
-    border: 1px solid #f0f0f0;
     width: 100%;
   }
 
