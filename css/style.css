@@ -44,6 +44,10 @@
   padding: 30px 0;
 }
 
+.div-section-frame-google-map {
+  width: 100%;
+  margin-top: 50px;
+}
 
 /*Pages Index Styles*/
 
@@ -92,6 +96,11 @@
   margin: 0 auto;
 }
 
+.grid-container-main{
+  display: grid;
+  grid-template-columns: auto;  
+}
+
 /*Section Transversal Styles/Footer*/
 
 footer {
@@ -108,6 +117,10 @@ footer div {
 
 footer h3 {
   margin: 10px;
+}
+
+.footer-contact {
+  margin-top: 0
 }
 
 /*Section Transversal Styles/Nav*/
@@ -149,33 +162,22 @@ nav li:first-child a {
 }
 
 .image-logo {
-  width: 5%;
+  width: 20%;
   border-radius: 50px;
   border: 5px solid white;
   margin: 5px;
 }
 
-.grid-container-main{
-  display: grid;
-  grid-template-columns: auto;  
-}
 
 
-.div-section-frame-google-map {
-  width: 100%;
-  margin-top: 50px;
-}
-
-.footer-local{
-  margin-top: 0;
-}
-
-/*Media Queries*/
+/*Media Queries Desktop*/
 
 @media only screen 
 and (min-device-width : 1025px) 
 and (max-device-width : 1280px) 
 { 
+  /*Section Transversal Styles/Nav*/
+
   .grid-container-nav-list{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
@@ -186,6 +188,8 @@ and (max-device-width : 1280px)
     font-weight: bold;
     width: 100%;
   }
+
+  /*Section Index Body Food*/
 
   .grid-container-body-food {
     display: grid;
@@ -207,16 +211,22 @@ and (max-device-width : 1280px)
     margin: 20px;
   }
 
+  /*Section Transversal Styles/Footer*/
+
   footer {
     display: grid;
     grid-template-columns: auto auto auto;
   }
 }
 
+/*Media Queries Tablet*/
+
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)  
 { 
+  /*Section Transversal Styles/Nav*/
+
   .grid-container-nav-list{
     display: grid;
     grid-template-columns: auto;
@@ -227,6 +237,8 @@ and (max-device-width : 1024px)
     font-weight: bold;
     width: 100%;
   }
+
+  /*Section Index Body Food*/
 
   .grid-container-body-food {
     display: grid;
@@ -248,16 +260,23 @@ and (max-device-width : 1024px)
     margin: 15px;
   }
 
+  /*Section Transversal Styles/Footer*/
+
   footer {
     display: grid;
     grid-template-columns: auto auto;
   }
 }
 
+/*Media Queries Mobile*/
+
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) 
 { 
+
+  /*Section Transversal Styles/Nav*/
+
   .grid-container-nav-list{
     display: grid;
     grid-template-columns: auto;
@@ -270,6 +289,8 @@ and (max-device-width : 480px)
     border: 1px solid #f0f0f0;
     width: 100%;
   }
+
+  /*Section Index Body Food*/
 
   .grid-container-body-food {
     display: grid;
@@ -290,6 +311,8 @@ and (max-device-width : 480px)
     width: 200px;
     margin: 10px;
   }
+
+  /*Section Transversal Styles/Footer*/
 
   footer {
     display: grid;
