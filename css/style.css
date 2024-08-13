@@ -148,3 +148,10 @@ header nav {
       grid-template-columns: auto; } }
 
 /*componentes*/
+.section-linear-daily {
+  background-color: black;
+  color: white;
+  text-align: center; }
+  .section-linear-daily .div-linear-daily h3 {
+    padding: 0 30px;
+    margin: 0 auto; }
