@@ -1,6 +1,7 @@
 /*utilities*/
 @import "./utilities/variables";
 @import "utilities/mixins";
+@import "utilities/maps";
 
 /*base*/
 @import "./base/fonts";
@@ -9,11 +10,11 @@
 /*layout*/
 @import "./layout/footer";
 @import "./layout/header";
-@import "./layout/main-grid-circle";
+@import "./layout/grid-circle";
 
 /*componentes*/
-@import "./components/circle";
-@import "./components/linear_title"
+@import "./components/linear_title";
+@import "./components/form_contact"
 
 
   

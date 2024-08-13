@@ -4,7 +4,7 @@
   .section-img-linear-principal {
     .img-linear-principal {
       width: 100%;
-      border-bottom: 5px solid black;
+      border-bottom: 5px solid map-get($colors, "black");
     }
   }
   .section-container-body-food {

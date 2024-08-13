@@ -1,6 +1,6 @@
 header {
   nav {
-    background-color: orange;
+    background-color: map-get($colors, "orange");
     height: 120px;
     ul {
       width: 100%;
@@ -24,7 +24,7 @@ header {
             .image-logo {
               width: 10%;
               border-radius: 50px;
-              border: 5px solid white;
+              border: 5px solid map-get($colors, "white");
               margin: 5px;
             }
           }
@@ -37,7 +37,7 @@ header {
           align-items: center;
           color: black;
           :hover {
-            background-color: #f0f0f0;
+            background-color: map-get($colors, "white");
           }
         }
       }
