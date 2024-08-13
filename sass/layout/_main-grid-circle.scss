@@ -1,0 +1,67 @@
+.main-grid-circle {
+  display: grid;
+  grid-template-columns: auto;
+  .section-img-linear-principal {
+    .img-linear-principal {
+      width: 100%;
+      border-bottom: 5px solid black;
+    }
+  }
+  .section-container-body-food {
+    .grid-container-body-food {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      margin-top: 50px;
+      height: 100%;
+      text-align: center;
+      font-weight: bold;
+      font-size: 20px;
+      margin-bottom: 100px;
+      @include container-circle
+    }
+  }
+}
+
+
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1280px) {
+  .main-grid-circle {
+    display: grid;
+    grid-template-columns: auto;
+    .section-container-body-food {
+      .grid-container-body-food {
+        display: grid;
+        grid-template-columns: auto auto auto;
+      }
+    }
+  }
+}
+
+/*Media Queries Tablet*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .main-grid-circle {
+    display: grid;
+    grid-template-columns: auto;
+    .section-container-body-food {
+      .grid-container-body-food {
+        display: grid;
+        grid-template-columns: auto auto;
+      }
+    }
+  }
+}
+
+/*Media Queries Mobile*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .main-grid-circle {
+    display: grid;
+    grid-template-columns: auto;
+    .section-container-body-food {
+      .grid-container-body-food {
+        display: grid;
+        grid-template-columns: auto;
+      }
+    }
+  }
+}
